@@ -19,11 +19,11 @@ export const Header = styled.header`
 `;
 export const Title = styled.h1`
 	font-size: 2rem;
-	color: #333;
+	color: #fff;
 	margin: 0;
 `;
 export const AppButton = styled.button`
-	background: #0077ff;
+	background: #7345fc;
 	color: #fff;
 	border: none;
 	border-radius: 0.5rem;
@@ -32,7 +32,7 @@ export const AppButton = styled.button`
 	cursor: pointer;
 	transition: background 0.2s;
 	&:hover {
-		background: #005fcc;
+		background: #9572fd;
 	}
 `;
 

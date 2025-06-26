@@ -32,3 +32,8 @@ export const Form = styled.form`
 	gap: 1rem;
 	margin-top: 1rem;
 `;
+
+export const FormTitle = styled.h2`
+	font-size: 1.5rem;
+	color: #333;
+`;
