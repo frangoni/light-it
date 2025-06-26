@@ -1,6 +1,6 @@
 import { useQuery } from '@tanstack/react-query';
 import { useEffect, useState } from 'react';
-import type { IPatient } from './types';
+import type { IPatient } from './_types';
 import useModal from '../_shared/hooks/useModal';
 
 export default function usePatients() {

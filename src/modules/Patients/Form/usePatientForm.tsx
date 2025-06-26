@@ -1,5 +1,5 @@
 import { useForm } from 'react-hook-form';
-import type { IPatient } from '../types';
+import type { IPatient } from '../_types';
 import { useEffect } from 'react';
 import type { SubmitHandler } from 'react-hook-form';
 import { z } from 'zod/v4';

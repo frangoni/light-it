@@ -1,4 +1,4 @@
-import type { IPatient } from '../types';
+import type { IPatient } from '../_types';
 import Accordion from '../../_shared/components/Accordion';
 import { AppButton, Card } from '../../_shared/components/generic';
 import { Avatar, CardHeader, Details, Name } from './styles';

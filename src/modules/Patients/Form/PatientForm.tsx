@@ -1,5 +1,5 @@
-import type { IPatient } from '../types';
-import { AppButton, Title } from '../../_shared/components/generic';
+import type { IPatient } from '../_types';
+import { AppButton } from '../../_shared/components/generic';
 import { ErrorMsg, Field, Form, FormTitle, Input, Label } from './styles';
 import usePatientForm from './usePatientForm';
 
