@@ -1,5 +1,5 @@
 import PatientCard from '../Card/PatientCard';
-import type { IPatient } from '../types';
+import type { IPatient } from '../_types';
 import { ListContainer } from './styles';
 
 interface PatientListProps {
