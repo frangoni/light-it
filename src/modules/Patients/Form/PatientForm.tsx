@@ -1,6 +1,6 @@
 import type { IPatient } from '../types';
 import { AppButton, Title } from '../../_shared/components/generic';
-import { ErrorMsg, Field, Form, Input, Label } from './styles';
+import { ErrorMsg, Field, Form, FormTitle, Input, Label } from './styles';
 import usePatientForm from './usePatientForm';
 
 interface Props {
@@ -20,7 +20,7 @@ export default function PatientForm({ initialData, mode, onSubmit, setPatients }
 
 	return (
 		<>
-			<Title>{mode === 'add' ? 'Add Patient' : 'Edit Patient'}</Title>
+			<FormTitle>{mode === 'add' ? 'Add Patient' : 'Edit Patient'}</FormTitle>
 			<Form onSubmit={handleSubmit(onSubmitHandler)}>
 				<Field>
 					<Label>Name</Label>

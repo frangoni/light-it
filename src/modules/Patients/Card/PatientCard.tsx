@@ -8,7 +8,6 @@ interface PatientCardProps {
 }
 
 export default function PatientCard({ patient, onEdit }: PatientCardProps) {
-	console.log('patient :', patient);
 	return (
 		<Card>
 			<CardHeader>
