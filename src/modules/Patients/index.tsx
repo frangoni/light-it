@@ -24,6 +24,7 @@ export default function Patients() {
 				<Title>Patient Data Management</Title>
 				<AppButton onClick={handleAdd}>Add Patient</AppButton>
 			</Header>
+
 			<PatientList onEdit={handleEdit} patients={patients} isPending={isPending} error={error} />
 
 			<Modal ref={modalRef}>
