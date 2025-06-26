@@ -38,6 +38,7 @@ export const AppButton = styled.button`
 
 export const Card = styled.div`
 	background: #fff;
+	color: #222;
 	border-radius: 1rem;
 	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
 	padding: 1.5rem;
