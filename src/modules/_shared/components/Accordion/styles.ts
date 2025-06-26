@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Trigger = styled.div`
 	cursor: pointer;
-	padding: 0.5rem;
+	padding: 0.25rem;
 	border-bottom: 1px solid #ddd;
 	transition: background 0.3s ease-in-out;
 
@@ -14,7 +14,6 @@ export const Trigger = styled.div`
 export const Content = styled.div`
 	display: grid;
 	grid-template-rows: minmax(0, 0fr);
-	padding: 0.5rem;
 	background: #f9f9f9;
 	border-top: 1px solid #ddd;
 	color: #333;
@@ -27,4 +26,10 @@ export const Content = styled.div`
 	&.isOpen {
 		grid-template-rows: minmax(0, 1fr);
 	}
+`;
+
+export const AccordionWrapper = styled.div`
+	border-radius: 0.5rem;
+	margin-bottom: 1rem;
+	overflow: hidden;
 `;
