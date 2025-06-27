@@ -1,4 +1,5 @@
 import { keyframes, styled } from 'styled-components';
+import { CardStyles } from '../generic';
 
 const SlideUp = keyframes`
   from {
@@ -54,4 +55,9 @@ export const DialogContent = styled.div`
 	margin-inline: -1rem;
 
 	color: rgba(255, 255, 255, 0.9);
+`;
+
+export const DialogCard = styled.div`
+	${CardStyles}
+	background-color: rgba(255, 255, 255, 0.75);
 `;

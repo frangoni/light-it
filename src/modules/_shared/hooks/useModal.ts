@@ -1,5 +1,5 @@
 import { useRef } from 'react';
-import type { ModalHandle } from '../../../components/shared/Dialog';
+import type { ModalHandle } from '../components/Dialog';
 
 export default function useModal() {
 	const modalRef = useRef<ModalHandle>(null);

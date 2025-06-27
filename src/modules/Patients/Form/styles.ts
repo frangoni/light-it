@@ -7,17 +7,27 @@ export const Label = styled.label`
 	display: block;
 	margin-bottom: 0.25rem;
 	font-weight: 500;
-	font-size: 1rem;
 	color: #333;
 `;
 export const Input = styled.input`
 	width: 100%;
 	padding: 0.5rem;
-	border: 1px solid #ccc;
-	background-color: #fff;
+	border: 2px solid rgba(115, 69, 252, 0.25);
+	background-color: rgba(255, 255, 255, 0.25);
+	outline: none;
 	color: #333;
-	border-radius: 0.5rem;
+	border-radius: 0.25rem;
 	font-size: 1rem;
+	transition: border-color 0.2s ease, box-shadow 0.2s ease;
+
+	&:focus {
+		border-color: #7345fc;
+		box-shadow: 0 0 0 0.2rem rgba(115, 69, 252, 0.25);
+	}
+
+	&:hover {
+		border-color: #7345fc;
+	}
 `;
 
 export const ErrorMsg = styled.div`
