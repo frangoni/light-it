@@ -51,7 +51,7 @@ export const DialogContent = styled.div`
 	max-height: 90svh;
 	overflow-y: auto;
 	overflow-x: hidden;
-	padding: 0 1rem;
+	padding: 1rem;
 	margin-inline: -1rem;
 
 	color: rgba(255, 255, 255, 0.9);
