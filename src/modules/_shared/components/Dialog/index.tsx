@@ -1,8 +1,8 @@
 import { forwardRef, useImperativeHandle, useRef } from 'react';
 import type { ReactNode } from 'react';
-import { DialogContent, StyledDialog } from './styles';
+import { DialogCard, DialogContent, StyledDialog } from './styles';
 import useKeyBindings from '../../hooks/useKeyBindings';
-import { AppButton, Card } from '../generic';
+import { AppButton } from '../generic';
 
 interface ModalProps {
 	children: ReactNode;
@@ -25,9 +25,9 @@ const Modal = forwardRef<ModalHandle, ModalProps>(({ children }, ref) => {
 
 	return (
 		<StyledDialog ref={dialogRef}>
-			<Card>
+			<DialogCard>
 				<DialogContent>{children}</DialogContent>
-			</Card>
+			</DialogCard>
 			<AppButton id='closeModal' onClick={() => dialogRef.current?.close()}>
 				X
 			</AppButton>

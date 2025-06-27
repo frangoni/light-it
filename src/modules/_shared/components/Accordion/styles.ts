@@ -21,6 +21,7 @@ export const Content = styled.div`
 
 	.content {
 		overflow: hidden;
+		padding: 0.5rem 0.5rem;
 	}
 
 	&.isOpen {
